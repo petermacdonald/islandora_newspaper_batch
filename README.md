@@ -20,7 +20,7 @@ Before you can ingest a newspaper you must first create the "parent" to hold the
 
 _Manage > Overview > Add an object to this Collection > Give it a Name > Ingest_<br/>
 
-The base ZIP/directory preprocessor can be called as a drush script (see `drush help islandora_newspaper_batch_preprocess` for additional parameters):
+The base ZIP/directory preprocessor can be called as a Drush script (see `drush help islandora_newspaper_batch_preprocess` for additional parameters):
 
 Drush made the `target` parameter reserved as of Drush 7. To allow for backwards compatability this will be preserved.
 
@@ -61,16 +61,16 @@ my_batch/
 └── issue1
     ├── 1
     │   ├── JP2.jp2
-    │   ├── JPG.jpeg
+    │   ├── JPG.jpg
     │   ├── OBJ.tif
-    │   ├── OCR.asc
-    │   └── TN.jpeg
+    │   ├── OCR.txt
+    │   └── TN.jpg
     ├── 2
     │   ├── JP2.jp2
-    │   ├── JPG.jpeg
+    │   ├── JPG.jpg
     │   ├── OBJ.tif
-    │   ├── OCR.asc
-    │   └── TN.jpeg
+    │   ├── OCR.txt
+    │   └── TN.jpg
     └── MODS.xml
 ```
 
